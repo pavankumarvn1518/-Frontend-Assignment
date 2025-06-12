@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+}
+#c{
+    background:black;
+    background-size: cover;
+
+}
+
+
+
+#controls {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 8px;
+    z-index: 10;
+    max-width: 200px;
+}
+#speed-controls label {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+#speed-controls input[type="range"] {
+    width: 100%;
+}
